@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Паспорт</title>
+</head>
+<body>
+
+<table align="center" border=1 cellpadding="5" cellspacing="1" width="600px">
+    <tr>
+        <td>Паспорт</td>
+    </tr>
+    <tr>
+        <td>
+            <ul>
+                <li><a href="./t_1.html" target="_self">Изменяем кириллицу на латиницу по клику</a>
+                <li><a href="./t_2.html" target="_self">DOM_JS. Считываем информацию из DOM</a>
+                <li><a href="./01english_course.html" target="_blank">Черновик задачи ABC</a>
+
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <!--Уникально содержание страницы-->
+            <h3 align="center" id="start">Task B.2</h3>
+            <a href="#passport" target="_self" title="Закладка">Изменяем кириллицу на латиницу по клику</a>
+            <a href="#head1" target="_self" title="Закладка">Глава 1 (закладка) в текущем документе</a>
+
+
+            <table border="1">
+                <g id="passport">Изменяем кириллицу на латиницу по клику</g>
+                <tr background="../images/pass_page.jpeg">
+                    <td height="740px"><img src="../images/bgf.png" height="200px"></td>
+                    <td width="470px">
+                        <p>Паспорт выдан <span>отделом УФМС г.Москвы</span></p>
+                        <p>Фамилия <span>Руденко</span></p>
+                        <p>Имя <span>Александра</span></p>
+                        <p>Отчество <span>Константиновна</span></p>
+                        <p>Год рождения <span>2005</span></p>
+
+                        <p id="for_click">кликнуть</p>
+                    </td>
+
+                </tr>
+            </table>
+        </td>
+    </tr>
+
+</table>
+</body>
+<script src="../passport/js/passport.js"></script>
+</html>
